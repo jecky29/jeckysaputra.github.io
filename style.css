@@ -10,3 +10,93 @@
 section {
   padding-top: 5rem;
 }
+
+/* Feature Section */
+.feature-box {
+  position: relative;
+  background-color: rgb(180, 205, 227);
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.feature-box::before {
+  content: 'MY';
+  position: absolute;
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-box:hover::before {
+  opacity: 0.3;
+}
+
+.feature-box::after {
+  content: 'Certificate';
+  position: absolute;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-box:hover::after {
+  opacity: 0.3;
+}
+
+.feature-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.feature-box:hover .feature-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.feature-detail-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.feature-box:hover .feature-detail-btn {
+  opacity: 1;
+  bottom: 10px;
+  transition: 0.5s;
+}
+
+.feature-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 80px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+
+.feature-box:hover .feature-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(-10deg) scale(1.2);
+}

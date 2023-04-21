@@ -317,38 +317,47 @@
                 </div>
             </div>
             </div>
-         </div>
+          </div>
+         <section id="More-Feature" > 
+          <div class="container">
+            <div class="row text-center mb-3">
+              <div class="col">
+                <h2><i class="fw-bold"></i> Feature </h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col col-md-6 col-lg-4 mb-3">
+                <div class="feature-box">
+                  <h4 class="feature-name">Certificate</h4>
+                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
+                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+                </div>
+              </div>
+              <div class="col col-md-6 col-lg-4 mb-3">
+                <div class="feature-box">
+                  <h4 class="feature-name">Achievement</h4>
+                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
+                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+                </div>
+              </div>
+              <div class="col col-md-6 col-lg-4 mb-3">
+                <div class="feature-box">
+                  <h4 class="feature-name">Tools</h4>
+                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
+                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+         </section>
          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L480,256L960,32L1440,256L1440,320L960,320L480,320L0,320Z"></path></svg>
     </Section>
     <!-- Akhir Project -->
 
-    <!-- Certificate -->
-
-    <section id="certificate">
-        <div class="container">
-            <div class="row text-left">
-                <div class="col mb-3">
-                    <h2><i class="bi bi-person-lines-fill text-danger fw-bold"></i> Certificate</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <a href=""></a>
-                        <img src="" alt="">
-                    </div>
-                </div>
-        </div>
-    </section>
-    <!-- Akhir Certificate -->
     <!-- Achievment -->
-        <section id="achievement">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h2><i class="bi bi-person-lines-fill text-danger fw-bold"></i> Achievement</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
     <!-- Akhir Achievment -->
 
     <!-- Contact -->
@@ -447,5 +456,15 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+
+    <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
+      <script type="text/javascript">
+      	VanillaTilt.init(document.querySelectorAll(".feature-box"), {
+		    max: 25,
+		    speed: 400,
+        glare: true,
+	        });
+
+    </script>
     </body>
 </html>
