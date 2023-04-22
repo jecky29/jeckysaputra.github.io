@@ -110,6 +110,46 @@
     </section>
     <!-- Akhir About -->
 
+  <!-- Feature -->
+  <section id="More-Feature" > 
+    <div class="container">
+      <div class="row text-center mb-1">
+        <div class="col">
+          <h2><i class="fw-bold"></i> Feature </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col col-md-6 col-lg-4 mb-3">
+          <div class="feature-box">
+            <h4 class="feature-name">Certificate</h4>
+            <img src="img/Project/certificate.png" alt="Certificate" class="feature-img">
+            <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4 mb-3">
+          <div class="feature-ach">
+            <h4 class="feature-name">Achievement</h4>
+            <img src="img/Project/acvmnt.png" alt="BRImo" class="feature-img">
+            <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+          </div>
+        </div>
+        <div class="col col-md-6 col-lg-4 mb-3">
+          <div class="feature-tol">
+            <h4 class="feature-name">Tools</h4>
+            <img src="img/Project/tools.png" alt="Tools" class="feature-img">
+            <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8e5f3" fill-opacity="1" d="M0,256L288,128L576,224L864,224L1152,288L1440,224L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+   </section>
+<!-- Akhir Feature -->
+
+
     <!-- Projects -->
     <Section id="Project">
          <div class="container ">
@@ -318,45 +358,11 @@
             </div>
             </div>
           </div>
-         <section id="More-Feature" > 
-          <div class="container">
-            <div class="row text-center mb-3">
-              <div class="col">
-                <h2><i class="fw-bold"></i> Feature </h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-md-6 col-lg-4 mb-3">
-                <div class="feature-box">
-                  <h4 class="feature-name">Certificate</h4>
-                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
-                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e8e5f3" fill-opacity="1" d="M0,128L480,256L960,32L1440,256L1440,320L960,320L480,320L0,320Z"></path></svg>
 
-                </div>
-              </div>
-              <div class="col col-md-6 col-lg-4 mb-3">
-                <div class="feature-box">
-                  <h4 class="feature-name">Achievement</h4>
-                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
-                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
-
-                </div>
-              </div>
-              <div class="col col-md-6 col-lg-4 mb-3">
-                <div class="feature-box">
-                  <h4 class="feature-name">Tools</h4>
-                  <img src="img/Project/BRImo.png" alt="BRImo" class="feature-img">
-                  <a href="" class="btn btn-light feature-detail-btn">Show Details</a>
-
-                </div>
-              </div>
-            </div>
-          </div>
-         </section>
-         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,128L480,256L960,32L1440,256L1440,320L960,320L480,320L0,320Z"></path></svg>
-    </Section>
+          </Section>
     <!-- Akhir Project -->
-
+        
     <!-- Achievment -->
     <!-- Akhir Achievment -->
 
@@ -459,12 +465,29 @@
 
     <script type="text/javascript" src="js/vanilla-tilt.min.js"></script>
       <script type="text/javascript">
-      	VanillaTilt.init(document.querySelectorAll(".feature-box"), {
+      	VanillaTilt.init(document.querySelectorAll(".feature-box" ),  {
 		    max: 25,
-		    speed: 400,
+		    speed: 4000,
+        glare: true,
+	        });
+         
+        	VanillaTilt.init(document.querySelectorAll(".feature-ach" ),  {
+		    max: 25,
+		    speed: 4000,
         glare: true,
 	        });
 
+        	VanillaTilt.init(document.querySelectorAll(".feature-tol" ),  {
+		    max: 25,
+		    speed: 4000,
+        glare: true,
+	        });
+         
+          VanillaTilt.init(document.querySelectorAll(".card" ),  {
+		    max: 25,
+		    speed: 4000,
+        glare: true,
+	        });
     </script>
     </body>
 </html>

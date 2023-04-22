@@ -4,14 +4,14 @@
 }
 
 #Project {
-  background-color: #e8e5f3;
+  background-color: #ffffff;
 }
 
 section {
   padding-top: 5rem;
 }
 
-/* Feature Section */
+/* Feature Section certificate */
 .feature-box {
   position: relative;
   background-color: rgb(180, 205, 227);
@@ -98,5 +98,227 @@ section {
 }
 
 .feature-box:hover .feature-img {
-  transform: translate3d(-50%, -50%, 100px) rotate(-10deg) scale(1.2);
+  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale(1.2);
+}
+
+/* feature Achievment */
+
+.feature-ach {
+  position: relative;
+  background-color: rgb(180, 205, 227);
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.feature-ach::before {
+  content: 'MY';
+  position: absolute;
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-ach:hover::before {
+  opacity: 0.3;
+}
+
+.feature-ach::after {
+  content: 'Achievment';
+  position: absolute;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-ach:hover::after {
+  opacity: 0.3;
+}
+
+.feature-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.feature-ach:hover .feature-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.feature-detail-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.feature-ach:hover .feature-detail-btn {
+  opacity: 1;
+  bottom: 10px;
+  transition: 0.5s;
+}
+
+.feature-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 80px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+
+.feature-ach:hover .feature-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale(1.2);
+}
+
+/* feature Tools */
+
+.feature-tol {
+  position: relative;
+  background-color: rgb(180, 205, 227);
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.feature-tol::before {
+  content: 'MY';
+  position: absolute;
+  color: #ffffff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-tol:hover::before {
+  opacity: 0.3;
+}
+
+.feature-tol::after {
+  content: 'Tools';
+  position: absolute;
+  color: #ffffff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.feature-tol:hover::after {
+  opacity: 0.3;
+}
+
+.feature-name {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.feature-tol:hover .feature-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.feature-detail-btn {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 100px);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.feature-tol:hover .feature-detail-btn {
+  opacity: 1;
+  bottom: 10px;
+  transition: 0.5s;
+}
+
+.feature-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 80px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+
+.feature-tol:hover .feature-img {
+  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale(1.2);
+}
+
+/* Project */
+
+.card {
+  position: relative;
+  background-color: rgb(180, 205, 227);
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.img-fluid {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transform: translate3d(0, 0, 50px);
+  transition: 0.5s;
+}
+
+.card:hover .img-fluid {
+  top: 20px;
+  opacity: 1;
+}
+
+.img-fluid {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-52%, -50%, 80px);
+  max-width: 300px;
+  transition: 0.5s;
+}
+
+.card:hover .img-fluid {
+  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale();
 }
