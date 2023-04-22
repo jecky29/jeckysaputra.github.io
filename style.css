@@ -305,15 +305,16 @@ section {
 
 /* Certificate galery */
 .container {
-  max-width: 100px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
 .carousel-item {
-  height: 800px;
+  height: 700px;
 }
 
 .carousel-item img {
   object-fit: fixed;
   height: 100%;
+  width: 100%;
 }
