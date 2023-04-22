@@ -9,6 +9,9 @@
 
 section {
   padding-top: 0.5%;
+  padding-block-end: 0.5%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* Feature Section certificate */
@@ -17,7 +20,6 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
-  transform-style: preserve-3d;
 }
 
 .feature-box::before {
@@ -108,7 +110,7 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
 }
 
 .feature-ach::before {
@@ -199,7 +201,7 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
-  transform-style: preserve-3d;
+  /* transform-style: preserve-3d; */
 }
 
 .feature-tol::before {
@@ -316,5 +318,4 @@ section {
 .carousel-item img {
   object-fit: fixed;
   height: 100%;
-  width: 100%;
 }
