@@ -291,6 +291,7 @@ section {
   border-radius: 10px;
   height: 500px;
   transform-style: preserve-3d;
+  overflow: hidden;
 }
 
 .img-fluid {
@@ -320,5 +321,5 @@ section {
 }
 
 .card:hover .img-fluid {
-  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale();
+  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale(1.2);
 }
