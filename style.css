@@ -20,6 +20,7 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
+  transform-style: preserve-3d;
 }
 
 .feature-box::before {
@@ -110,7 +111,7 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
-  /* transform-style: preserve-3d; */
+  transform-style: preserve-3d;
 }
 
 .feature-ach::before {
@@ -201,7 +202,7 @@ section {
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
-  /* transform-style: preserve-3d; */
+  transform-style: preserve-3d;
 }
 
 .feature-tol::before {
