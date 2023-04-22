@@ -1,6 +1,6 @@
 .jumbotron {
   padding-top: 6rem;
-  background-color: #e8e5f3;
+  background-color: #c9c9c9;
 }
 
 #Project {
@@ -8,7 +8,7 @@
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 0.5%;
 }
 
 /* Feature Section certificate */
@@ -286,7 +286,7 @@ section {
 /* Project */
 
 .card {
-  position: relative;
+  position: absolute;
   background-color: rgb(180, 205, 227);
   border-radius: 10px;
   height: 500px;
@@ -296,30 +296,24 @@ section {
 
 .img-fluid {
   position: absolute;
-  top: 0;
-  width: 100%;
-  color: black;
-  text-align: center;
-  font-size: 2em;
-  opacity: 0;
-  transform: translate3d(0, 0, 50px);
-  transition: 0.5s;
-}
-
-.card:hover .img-fluid {
-  top: 20px;
-  opacity: 1;
-}
-
-.img-fluid {
-  position: absolute;
-  top: 52%;
+  top: 50%;
   left: 50%;
   transform: translate3d(-52%, -50%, 80px);
   max-width: 300px;
   transition: 0.5s;
 }
 
-.card:hover .img-fluid {
-  transform: translate3d(-50%, -50%, 100px) rotate(-20deg) scale(1.2);
+/* Certificate galery */
+.container {
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+.carousel-item {
+  height: 800px;
+}
+
+.carousel-item img {
+  object-fit: fixed;
+  height: 100%;
 }
