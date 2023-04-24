@@ -308,7 +308,7 @@ section {
 
 /* Certificate galery */
 .container {
-  max-width: 700px;
+  max-width: 500px;
   margin: 0 auto;
 }
 
@@ -318,5 +318,5 @@ section {
 
 .carousel-item img {
   object-fit: fixed;
-  height: 1000;
+  height: 100%;
 }
